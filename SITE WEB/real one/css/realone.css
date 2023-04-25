@@ -1,0 +1,165 @@
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'SF Pro';
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "SF pro", sans-serif;
+    padding-top: 60px;
+    background-color: black;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 460;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+}
+
+
+/* Desktop Nav */
+
+.navbar {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .name {
+    padding-left: 50px; 
+    background: url('');
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .logo {
+    position: absolute;
+    padding-left: 30px;
+}
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 150px;
+}
+
+.navbar .nav-links {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 400ms;
+}
+
+.navbar .nav-links:hover {
+    opacity: 1;
+    color: whitesmoke;
+}
+
+ .navbar li .active {
+    color: red;
+}
+
+li a {
+    transition: 1s;
+    color: #fff;
+}
+
+li a:hover {
+    color: aqua;
+    transition: 1s;
+}
+
+
+ .navbar .logo {
+    background-image: url('/Manga_astronaut-modified\ \(1\).png');
+    position: absolute;
+}
+
+.navbar .nav-links ul li .active a {
+    color: red;
+    font-weight: 600px;
+}
+
+
+h3 {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 12em;
+    margin-top: 300px;
+    margin-left: 200px;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 0.85em;
+    text-align: center;
+    
+}
+
+.navbar .logo {
+    background: url('/Manga_astronaut-modified\ \(1\).png');
+    background-position: center;
+    height: 44px;
+    background-size: 100px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.navbar .logo:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+h6 {
+    font-family: 'AppleGaramond.ttf';
+    position: absolute;
+    text-decoration: none;
+    font-size: 1.7em;
+    color: whitesmoke;
+    margin-top: 500px;
+    margin-left: 400px;
+    text-align: center;
+    color: beige;
+}
+
+.content {
+    text-align: center;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+
+
+
+
+

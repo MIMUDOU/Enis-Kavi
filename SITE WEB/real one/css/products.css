@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  body{
+    background: white;
+    pading-top: 45px;
+  }
+  
+  body, html{
+    height: 100%;
+  }
+  
+  header {
+    width:100%;
+    height: 45px;
+    background:black;
+  }
+  
+  .container{
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .navigation{
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo{
+    padding-top:8px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #BFBFBF;
+    font-size: 12px;
+  }
+  
+  .search, .bag  {
+    height: 15px;
+    width: 15px;
+    color: white;
+  }
+  
+  .hero-section{
+    height: 480px;
+  }
+  
+  .text{
+    padding-top: 32px;
+  }
+  .img-iphone14pro{
+    height: 440px;
+    background: url(https://www.apple.com/v/home/aw/images/heroes/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg)
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+  .img-iphone14{
+    height: 500px;
+    background: url("iPad Pro.webp")
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .wrapper {
+    display: flex;
+    background: white;
+  }
+  
+  .column {
+    width: 50%;
+    height: 500px;
+    padding-top: 32px;
+    margin: 5px;
+  }
+  
+  .column-left {
+    background: url(https://www.apple.com/v/home/aw/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_large.jpg)
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .column-right {
+    background: url("apple watch.webp")
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .column:first-of-type {
+    margin-right: 0;
+  }
+  
+  .header-white {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  .header-black {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  
+  .apple-card {
+    height: 100px;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-image: url("watch-apple.jpeg");
+    background-position: center;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    margin-bottom: 10px;
+  }
+  
+  .description-white {
+    color: white;
+  }
+  
+  .description-black {
+    color: white;
+  }
+  
+  .link-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blue-link {
+    font-size: 16px;
+    color: #2997ff;
+    text-decoration: none;
+    line-height: 1.23536;
+    font-weight: 400;
+    margin: 0 8px;
+  }
+  
+  .text-chevron {
+    display: flex;
+  }
+  
+  .chevron-right {
+    width: 10px;
+    height: 10px;
+    color: #2997ff;
+    margin-left: -6px;
+  }
+  

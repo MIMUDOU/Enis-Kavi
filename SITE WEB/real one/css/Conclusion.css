@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'SF Pro';
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "SF pro", sans-serif;
+    padding-top: 60px;
+    background: url(conclusion.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 460;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+}
+
+
+/* Desktop Nav */
+
+.navbar {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .name {
+    padding-left: 50px; 
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .logo {
+    position: absolute;
+    padding-left: 30px;
+}
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+}
+
+.navbar .nav-links {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 400ms;
+}
+
+.navbar .nav-links:hover {
+    opacity: 1;
+    color: whitesmoke;
+}
+
+ .navbar .logo {
+    background-image: url('animated-apple-logo-1.gif');
+    position: absolute;
+}
+
+.navbar .nav-links ul li .active a {
+    color: red;
+    font-weight: 600px;
+}
+
+
+h1 {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 7em;
+    margin-top: 200px;
+    margin-left: 300px;
+    text-align: center;
+}
+
+h4 {
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 380px;
+    text-align: center;
+}
+
+.navbar .logo {
+    background: url(Wallet\ menu\ button.png);
+    background-position: center;
+    height: 50px;
+    background-size: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    color: white;
+    opacity: 0.8;
+    transition: opacity 400ms;
+    text-align: center;
+
+}
+
+.navbar .logo:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+li a {
+    transition: 1s;
+    color: #fff;
+}
+
+li a:hover {
+    color: #D11FFF;
+    transition: 1s;
+}
+
+.content {
+    text-align: center;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 3em;
+    border: 5px solid #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 600px;
+}
+
+.corps2 h5{
+    margin-top: 40px;
+    color: #F66B5E;
+    list-style: square;
+    font-size: 3em;
+    padding-left: 100px;
+}
+
+.corps2 #status{
+    margin-top: 200px;
+}
+
+.corps2 h6{
+    font-size: 2em;
+    text-align: left;
+    padding-left: 50px ;
+    color: white;
+}
+
+.corps #titreH {
+    margin-top: 250px;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+}
+
+
+.corps #textI {
+    margin-top: 100px;
+    font-size: 35px;
+    text-align: center;
+    padding: 15px 15px;
+
+}
+
+.corps #titreB {
+    margin-top: 500px;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+}
+
+.corps #textA {
+    margin-top: 20px;
+}
+
+
+.corps #titreA {
+    margin-top: 500px;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+}
+
+.corps #textB {
+margin-top: 100px ;
+}
+
+
+
+
+.corps .keynote-logo {
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 50px;
+    color: white;
+    opacity: 0.8;
+    transition: opacity 400ms;
+    position: center;
+    margin-top: -120px;
+
+}
+
+.corps .keynote-logo:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.2);
+}
